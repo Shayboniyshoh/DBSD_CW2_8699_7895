@@ -8,4 +8,8 @@
     <Folder Include="AppData\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="PagedList" Version="1.17.0" />
+  </ItemGroup>
+
 </Project>
