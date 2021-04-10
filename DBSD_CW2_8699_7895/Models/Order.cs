@@ -13,6 +13,10 @@ namespace DBSD_CW2_8699_7895.Models
         public DateTime OrderDate { get; set; }
         [DisplayName("Size")]
         public string Size { get; set; }
+        [DisplayName("Quantity")]
+        public int Quantity { get; set; }
+        [DisplayName("Total Cost")]
+        public int TotalCost { get; set; }
         [DisplayName("Is Discount Available")]
         public bool IsDiscountAvailable { get; set; }
         [DisplayName("Discount")]
