@@ -4,9 +4,9 @@ namespace DBSD_CW2_8699_7895.Models
 {
     public class Restaurant
     {
-        [DisplayName("RestaurantId")]
+        [DisplayName("Restaurant Id")]
         public int RestaurantId { get; set; }
-        [DisplayName("[Name]")]
+        [DisplayName("Restaurant Name")]
         public string Name { get; set; }
         [DisplayName("Street")]
         public string Street { get; set; }

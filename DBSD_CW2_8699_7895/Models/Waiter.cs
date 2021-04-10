@@ -5,19 +5,19 @@ namespace DBSD_CW2_8699_7895.Models
 {
     public class Waiter
     {
-        [DisplayName("WaiterId")]
+        [DisplayName("Waiter Id")]
         public int WaiterId { get; set; }
-        [DisplayName("FirstName")]
+        [DisplayName("First Name")]
         public string FirstName { get; set; }
-        [DisplayName("LastName")]
+        [DisplayName("Last Name")]
         public string LastName { get; set; }
         [DisplayName("DoB")]
         public DateTime DoB { get; set; }
         [DisplayName("Salary")]
         public int Salary { get; set; }
-        [DisplayName("PhoneNumber")]
+        [DisplayName("Phone Number")]
         public string PhoneNumber { get; set; }
-        [DisplayName("RestaurantId")]
+        [DisplayName("Restaurant Id")]
         public int RestaurantId  {get;set;}
     }
 }
