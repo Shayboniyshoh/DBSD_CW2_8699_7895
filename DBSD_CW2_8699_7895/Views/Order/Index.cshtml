@@ -55,7 +55,10 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @if (Model != null)
+        {
+@foreach (var item in Model)
+{
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.OrderId)
@@ -103,5 +106,6 @@
             </td>
         </tr>
 }
+        }
     </tbody>
 </table>

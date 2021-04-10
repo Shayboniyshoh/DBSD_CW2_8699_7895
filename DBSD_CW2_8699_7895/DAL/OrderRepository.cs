@@ -21,7 +21,7 @@ namespace DBSD_CW2_8699_7895.DAL
                                                [CustomerId],
                                                [WaiterId],
                                                [ChefId],
-                                               [Photo],
+                                               [Photo]
                                                FROM [dbo].[Order]";
         private readonly string connStr;
         public OrderRepository(string connStr)
